@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 2307226}
   - component: {fileID: 2307225}
   - component: {fileID: 2307224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 48895266}
   - component: {fileID: 48895265}
   - component: {fileID: 48895264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shelf (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 71738088}
   - component: {fileID: 71738087}
   - component: {fileID: 71738086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 156436220}
   - component: {fileID: 156436219}
   - component: {fileID: 156436218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +945,7 @@ GameObject:
   - component: {fileID: 165179790}
   - component: {fileID: 165179789}
   - component: {fileID: 165179788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +978,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &165179789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1062,8 +1062,8 @@ Transform:
   m_GameObject: {fileID: 165179787}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000012265032, y: 0.9999887, z: -0.00035056923, w: 0.0047520865}
-  m_LocalPosition: {x: 6.471, y: -1.0120001, z: 1.7699997}
-  m_LocalScale: {x: 0.18078756, y: 0.7982329, z: 0.6351236}
+  m_LocalPosition: {x: 8.087, y: -2.3, z: -2.885}
+  m_LocalScale: {x: 0.18078756, y: 1.3974663, z: 0.6351236}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2103799946}
@@ -1081,7 +1081,7 @@ GameObject:
   - component: {fileID: 185627172}
   - component: {fileID: 185627171}
   - component: {fileID: 185627170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 189043649}
   - component: {fileID: 189043648}
   - component: {fileID: 189043647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1461,7 +1461,7 @@ GameObject:
   - component: {fileID: 211101811}
   - component: {fileID: 211101810}
   - component: {fileID: 211101809}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1705,7 +1705,7 @@ GameObject:
   - component: {fileID: 232646901}
   - component: {fileID: 232646900}
   - component: {fileID: 232646899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1841,7 +1841,7 @@ GameObject:
   - component: {fileID: 236694276}
   - component: {fileID: 236694275}
   - component: {fileID: 236694274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1977,7 +1977,7 @@ GameObject:
   - component: {fileID: 262582557}
   - component: {fileID: 262582556}
   - component: {fileID: 262582555}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2113,7 +2113,7 @@ GameObject:
   - component: {fileID: 312581195}
   - component: {fileID: 312581194}
   - component: {fileID: 312581193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2477,7 +2477,7 @@ GameObject:
   - component: {fileID: 337332155}
   - component: {fileID: 337332154}
   - component: {fileID: 337332153}
-  - component: {fileID: 337332152}
+  - component: {fileID: 337332157}
   m_Layer: 0
   m_Name: potion (32)
   m_TagString: Untagged
@@ -2485,33 +2485,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &337332152
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337332151}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &337332153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2595,12 +2568,39 @@ Transform:
   m_GameObject: {fileID: 337332151}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000012265032, y: 0.9999887, z: -0.00035056923, w: 0.0047520865}
-  m_LocalPosition: {x: 5.181, y: -1.6400001, z: -6.4589996}
+  m_LocalPosition: {x: 5.181, y: -1.6399999, z: -6.4669995}
   m_LocalScale: {x: 0.18078756, y: 0.3531333, z: 0.22512276}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!54 &337332157
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337332151}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &415152658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,7 +2614,7 @@ GameObject:
   - component: {fileID: 415152661}
   - component: {fileID: 415152660}
   - component: {fileID: 415152659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2750,7 +2750,7 @@ GameObject:
   - component: {fileID: 426779168}
   - component: {fileID: 426779167}
   - component: {fileID: 426779166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2886,7 +2886,7 @@ GameObject:
   - component: {fileID: 447902335}
   - component: {fileID: 447902334}
   - component: {fileID: 447902333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3021,7 +3021,7 @@ GameObject:
   - component: {fileID: 460817473}
   - component: {fileID: 460817472}
   - component: {fileID: 460817471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shelf (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3130,7 +3130,7 @@ GameObject:
   - component: {fileID: 478485168}
   - component: {fileID: 478485167}
   - component: {fileID: 478485166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3266,7 +3266,7 @@ GameObject:
   - component: {fileID: 482705767}
   - component: {fileID: 482705766}
   - component: {fileID: 482705765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3402,7 +3402,7 @@ GameObject:
   - component: {fileID: 533025016}
   - component: {fileID: 533025015}
   - component: {fileID: 533025014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3538,7 +3538,7 @@ GameObject:
   - component: {fileID: 561911094}
   - component: {fileID: 561911093}
   - component: {fileID: 561911092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3819,7 +3819,7 @@ GameObject:
   - component: {fileID: 588904492}
   - component: {fileID: 588904491}
   - component: {fileID: 588904490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3955,7 +3955,7 @@ GameObject:
   - component: {fileID: 593788491}
   - component: {fileID: 593788490}
   - component: {fileID: 593788489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4091,7 +4091,7 @@ GameObject:
   - component: {fileID: 626018894}
   - component: {fileID: 626018893}
   - component: {fileID: 626018892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4227,7 +4227,7 @@ GameObject:
   - component: {fileID: 640604784}
   - component: {fileID: 640604783}
   - component: {fileID: 640604782}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4363,7 +4363,7 @@ GameObject:
   - component: {fileID: 653528586}
   - component: {fileID: 653528585}
   - component: {fileID: 653528584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4499,7 +4499,7 @@ GameObject:
   - component: {fileID: 675333827}
   - component: {fileID: 675333826}
   - component: {fileID: 675333825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4635,7 +4635,7 @@ GameObject:
   - component: {fileID: 676831625}
   - component: {fileID: 676831624}
   - component: {fileID: 676831623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4772,7 +4772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.451115
+      value: 0.5282758
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3215749
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4780,11 +4784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.02
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.173
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4819,8 +4823,24 @@ PrefabInstance:
       value: FPSPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: gravity
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: jumpHeight
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: groundMask.m_Bits
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150482481047930158, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_Height
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4948,7 +4968,7 @@ GameObject:
   - component: {fileID: 717413451}
   - component: {fileID: 717413450}
   - component: {fileID: 717413449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5084,7 +5104,7 @@ GameObject:
   - component: {fileID: 750252034}
   - component: {fileID: 750252033}
   - component: {fileID: 750252032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5220,7 +5240,7 @@ GameObject:
   - component: {fileID: 764239236}
   - component: {fileID: 764239235}
   - component: {fileID: 764239234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5356,7 +5376,7 @@ GameObject:
   - component: {fileID: 774422963}
   - component: {fileID: 774422962}
   - component: {fileID: 774422961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5491,41 +5511,14 @@ GameObject:
   - component: {fileID: 812778935}
   - component: {fileID: 812778934}
   - component: {fileID: 812778933}
-  - component: {fileID: 812778932}
-  m_Layer: 0
+  - component: {fileID: 812778937}
+  m_Layer: 6
   m_Name: book (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &812778932
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812778931}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &812778933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5615,6 +5608,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!54 &812778937
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812778931}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &840235555
 GameObject:
   m_ObjectHideFlags: 0
@@ -5628,7 +5648,7 @@ GameObject:
   - component: {fileID: 840235558}
   - component: {fileID: 840235557}
   - component: {fileID: 840235556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5872,7 +5892,7 @@ GameObject:
   - component: {fileID: 862397910}
   - component: {fileID: 862397909}
   - component: {fileID: 862397908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6007,7 +6027,7 @@ GameObject:
   - component: {fileID: 920547269}
   - component: {fileID: 920547268}
   - component: {fileID: 920547267}
-  - component: {fileID: 920547266}
+  - component: {fileID: 920547271}
   m_Layer: 0
   m_Name: potion (33)
   m_TagString: Untagged
@@ -6015,33 +6035,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &920547266
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920547265}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &920547267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6125,12 +6118,39 @@ Transform:
   m_GameObject: {fileID: 920547265}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000012265032, y: 0.9999887, z: -0.00035056923, w: 0.0047520865}
-  m_LocalPosition: {x: 5.177, y: -1.6400001, z: -6.078}
+  m_LocalPosition: {x: 5.177, y: -1.64, z: -6.086}
   m_LocalScale: {x: 0.18078756, y: 0.3531333, z: 0.22512276}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!54 &920547271
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920547265}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &923782009
 GameObject:
   m_ObjectHideFlags: 0
@@ -6144,7 +6164,7 @@ GameObject:
   - component: {fileID: 923782012}
   - component: {fileID: 923782011}
   - component: {fileID: 923782010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6280,7 +6300,7 @@ GameObject:
   - component: {fileID: 943952426}
   - component: {fileID: 943952425}
   - component: {fileID: 943952424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6416,7 +6436,7 @@ GameObject:
   - component: {fileID: 954872708}
   - component: {fileID: 954872707}
   - component: {fileID: 954872706}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6552,7 +6572,7 @@ GameObject:
   - component: {fileID: 997305877}
   - component: {fileID: 997305876}
   - component: {fileID: 997305875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6796,7 +6816,7 @@ GameObject:
   - component: {fileID: 1005246056}
   - component: {fileID: 1005246055}
   - component: {fileID: 1005246054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6967,7 +6987,7 @@ GameObject:
   - component: {fileID: 1009765382}
   - component: {fileID: 1009765381}
   - component: {fileID: 1009765380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7103,7 +7123,7 @@ GameObject:
   - component: {fileID: 1039338400}
   - component: {fileID: 1039338399}
   - component: {fileID: 1039338398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7239,7 +7259,7 @@ GameObject:
   - component: {fileID: 1041213833}
   - component: {fileID: 1041213832}
   - component: {fileID: 1041213831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7374,7 +7394,7 @@ GameObject:
   - component: {fileID: 1060191463}
   - component: {fileID: 1060191462}
   - component: {fileID: 1060191461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7482,7 +7502,7 @@ GameObject:
   - component: {fileID: 1075485301}
   - component: {fileID: 1075485300}
   - component: {fileID: 1075485299}
-  - component: {fileID: 1075485298}
+  - component: {fileID: 1075485303}
   m_Layer: 0
   m_Name: potion (31)
   m_TagString: Untagged
@@ -7490,33 +7510,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1075485298
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075485297}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1075485299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7606,6 +7599,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!54 &1075485303
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075485297}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1083542383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7618,7 +7638,7 @@ GameObject:
   - component: {fileID: 1083542386}
   - component: {fileID: 1083542385}
   - component: {fileID: 1083542384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shelf (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7727,7 +7747,7 @@ GameObject:
   - component: {fileID: 1083891047}
   - component: {fileID: 1083891046}
   - component: {fileID: 1083891045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7863,7 +7883,7 @@ GameObject:
   - component: {fileID: 1086748955}
   - component: {fileID: 1086748954}
   - component: {fileID: 1086748953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7999,7 +8019,7 @@ GameObject:
   - component: {fileID: 1093433719}
   - component: {fileID: 1093433718}
   - component: {fileID: 1093433717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8135,7 +8155,7 @@ GameObject:
   - component: {fileID: 1116524998}
   - component: {fileID: 1116524997}
   - component: {fileID: 1116524996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8271,7 +8291,7 @@ GameObject:
   - component: {fileID: 1148500820}
   - component: {fileID: 1148500819}
   - component: {fileID: 1148500818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8407,7 +8427,7 @@ GameObject:
   - component: {fileID: 1168793400}
   - component: {fileID: 1168793399}
   - component: {fileID: 1168793398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8543,7 +8563,7 @@ GameObject:
   - component: {fileID: 1194824943}
   - component: {fileID: 1194824942}
   - component: {fileID: 1194824941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8679,7 +8699,7 @@ GameObject:
   - component: {fileID: 1224106432}
   - component: {fileID: 1224106431}
   - component: {fileID: 1224106430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8987,7 +9007,7 @@ GameObject:
   - component: {fileID: 1242144343}
   - component: {fileID: 1242144342}
   - component: {fileID: 1242144341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pillow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9138,7 +9158,7 @@ GameObject:
   - component: {fileID: 1260681855}
   - component: {fileID: 1260681854}
   - component: {fileID: 1260681853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9274,7 +9294,7 @@ GameObject:
   - component: {fileID: 1283278983}
   - component: {fileID: 1283278982}
   - component: {fileID: 1283278981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9410,7 +9430,7 @@ GameObject:
   - component: {fileID: 1286650074}
   - component: {fileID: 1286650073}
   - component: {fileID: 1286650072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9653,7 +9673,7 @@ GameObject:
   - component: {fileID: 1395682335}
   - component: {fileID: 1395682334}
   - component: {fileID: 1395682333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shelf (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9742,13 +9762,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395682332}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00025750994, y: 0.7009134, z: -0.00023819708, w: 0.71324635}
+  m_LocalRotation: {x: 0.0004415088, y: 0.701604, z: 0.00011205996, w: 0.71256703}
   m_LocalPosition: {x: -6.4760003, y: 0.22699976, z: -3.5640032}
   m_LocalScale: {x: 2.479836, y: 0.15093349, z: 0.9823199}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1255261837}
-  m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+  m_LocalEulerAnglesHint: {x: 0.027, y: 89.112, z: 0.045}
 --- !u!1 &1415548868
 GameObject:
   m_ObjectHideFlags: 0
@@ -9762,7 +9782,7 @@ GameObject:
   - component: {fileID: 1415548871}
   - component: {fileID: 1415548870}
   - component: {fileID: 1415548869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9898,7 +9918,7 @@ GameObject:
   - component: {fileID: 1440275624}
   - component: {fileID: 1440275623}
   - component: {fileID: 1440275622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10034,7 +10054,7 @@ GameObject:
   - component: {fileID: 1452330677}
   - component: {fileID: 1452330676}
   - component: {fileID: 1452330675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10170,7 +10190,7 @@ GameObject:
   - component: {fileID: 1455953520}
   - component: {fileID: 1455953519}
   - component: {fileID: 1455953518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10305,7 +10325,7 @@ GameObject:
   - component: {fileID: 1487660614}
   - component: {fileID: 1487660613}
   - component: {fileID: 1487660612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: dresser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10414,7 +10434,7 @@ GameObject:
   - component: {fileID: 1488972544}
   - component: {fileID: 1488972543}
   - component: {fileID: 1488972542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10550,7 +10570,7 @@ GameObject:
   - component: {fileID: 1513842600}
   - component: {fileID: 1513842599}
   - component: {fileID: 1513842598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10685,41 +10705,14 @@ GameObject:
   - component: {fileID: 1532799021}
   - component: {fileID: 1532799020}
   - component: {fileID: 1532799019}
-  - component: {fileID: 1532799018}
-  m_Layer: 0
+  - component: {fileID: 1532799023}
+  m_Layer: 6
   m_Name: book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1532799018
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532799017}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1532799019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10809,6 +10802,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!54 &1532799023
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532799017}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1602601762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10822,7 +10842,7 @@ GameObject:
   - component: {fileID: 1602601765}
   - component: {fileID: 1602601764}
   - component: {fileID: 1602601763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11065,7 +11085,7 @@ GameObject:
   - component: {fileID: 1643629169}
   - component: {fileID: 1643629168}
   - component: {fileID: 1643629167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11282,7 +11302,7 @@ GameObject:
   - component: {fileID: 1739117050}
   - component: {fileID: 1739117049}
   - component: {fileID: 1739117048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11418,7 +11438,7 @@ GameObject:
   - component: {fileID: 1740535161}
   - component: {fileID: 1740535160}
   - component: {fileID: 1740535159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11554,7 +11574,7 @@ GameObject:
   - component: {fileID: 1808261730}
   - component: {fileID: 1808261729}
   - component: {fileID: 1808261728}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11798,7 +11818,7 @@ GameObject:
   - component: {fileID: 1818991082}
   - component: {fileID: 1818991081}
   - component: {fileID: 1818991080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11933,7 +11953,7 @@ GameObject:
   - component: {fileID: 1826836435}
   - component: {fileID: 1826836434}
   - component: {fileID: 1826836433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cauldron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12150,7 +12170,7 @@ GameObject:
   - component: {fileID: 1860775311}
   - component: {fileID: 1860775310}
   - component: {fileID: 1860775309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12286,7 +12306,7 @@ GameObject:
   - component: {fileID: 1881798991}
   - component: {fileID: 1881798990}
   - component: {fileID: 1881798989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12422,7 +12442,7 @@ GameObject:
   - component: {fileID: 1909355874}
   - component: {fileID: 1909355873}
   - component: {fileID: 1909355872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12557,7 +12577,7 @@ GameObject:
   - component: {fileID: 1910623347}
   - component: {fileID: 1910623346}
   - component: {fileID: 1910623345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12666,7 +12686,7 @@ GameObject:
   - component: {fileID: 1916148737}
   - component: {fileID: 1916148736}
   - component: {fileID: 1916148735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12910,7 +12930,7 @@ GameObject:
   - component: {fileID: 1988289564}
   - component: {fileID: 1988289563}
   - component: {fileID: 1988289562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: potion (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13045,7 +13065,7 @@ GameObject:
   - component: {fileID: 1993783102}
   - component: {fileID: 1993783101}
   - component: {fileID: 1993783100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shelf (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13327,7 +13347,7 @@ GameObject:
   - component: {fileID: 2114630678}
   - component: {fileID: 2114630677}
   - component: {fileID: 2114630676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13436,7 +13456,7 @@ GameObject:
   - component: {fileID: 2143735900}
   - component: {fileID: 2143735899}
   - component: {fileID: 2143735898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: book (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13647,7 +13667,7 @@ Transform:
   m_GameObject: {fileID: 2146222800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.9196913, z: 0}
+  m_LocalPosition: {x: 0, y: 0.827531, z: -1.173}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
