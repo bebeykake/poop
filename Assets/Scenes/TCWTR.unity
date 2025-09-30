@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 2307226}
   - component: {fileID: 2307225}
   - component: {fileID: 2307224}
+  - component: {fileID: 2307229}
   m_Layer: 0
   m_Name: book (4)
   m_TagString: Untagged
@@ -255,6 +256,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &2307229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &48895263
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +332,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -376,6 +390,7 @@ GameObject:
   - component: {fileID: 71738088}
   - component: {fileID: 71738087}
   - component: {fileID: 71738086}
+  - component: {fileID: 71738091}
   m_Layer: 0
   m_Name: book (30)
   m_TagString: Untagged
@@ -499,6 +514,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &71738091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71738085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &77054183
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +590,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -778,7 +806,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -836,6 +864,7 @@ GameObject:
   - component: {fileID: 165179790}
   - component: {fileID: 165179789}
   - component: {fileID: 165179788}
+  - component: {fileID: 165179793}
   m_Layer: 0
   m_Name: book (20)
   m_TagString: Untagged
@@ -953,12 +982,25 @@ Transform:
   m_GameObject: {fileID: 165179787}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000012265032, y: 0.9999887, z: -0.00035056923, w: 0.0047520865}
-  m_LocalPosition: {x: 6.471, y: -1.0120001, z: 1.7699997}
+  m_LocalPosition: {x: 6.51, y: -3.32, z: -1.62}
   m_LocalScale: {x: 0.18078756, y: 0.7982329, z: 0.6351236}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &165179793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165179787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &185627169
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1014,7 @@ GameObject:
   - component: {fileID: 185627172}
   - component: {fileID: 185627171}
   - component: {fileID: 185627170}
+  - component: {fileID: 185627175}
   m_Layer: 0
   m_Name: potion (8)
   m_TagString: Untagged
@@ -1095,6 +1138,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &185627175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185627169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &189043646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1164,7 @@ GameObject:
   - component: {fileID: 189043649}
   - component: {fileID: 189043648}
   - component: {fileID: 189043647}
+  - component: {fileID: 189043652}
   m_Layer: 0
   m_Name: book (24)
   m_TagString: Untagged
@@ -1231,6 +1288,127 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &189043652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189043646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
+--- !u!1 &193709255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193709259}
+  - component: {fileID: 193709258}
+  - component: {fileID: 193709257}
+  - component: {fileID: 193709256}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &193709256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193709255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &193709257
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193709255}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 71de21829fcca48f4807c79a011e6c07, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &193709258
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193709255}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &193709259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193709255}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.54, y: 9.59, z: 1.61}
+  m_LocalScale: {x: 24.045134, y: 1, z: 18.337612}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &207305897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,7 +1472,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 8ddbc8f7c72e744139cb80e99d440245, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1352,6 +1530,7 @@ GameObject:
   - component: {fileID: 211101811}
   - component: {fileID: 211101810}
   - component: {fileID: 211101809}
+  - component: {fileID: 211101814}
   m_Layer: 0
   m_Name: book (7)
   m_TagString: Untagged
@@ -1475,6 +1654,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &211101814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211101808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &221214769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1730,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1596,6 +1788,7 @@ GameObject:
   - component: {fileID: 232646901}
   - component: {fileID: 232646900}
   - component: {fileID: 232646899}
+  - component: {fileID: 232646904}
   m_Layer: 0
   m_Name: potion (19)
   m_TagString: Untagged
@@ -1719,6 +1912,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &232646904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232646898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &236694273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,6 +1938,7 @@ GameObject:
   - component: {fileID: 236694276}
   - component: {fileID: 236694275}
   - component: {fileID: 236694274}
+  - component: {fileID: 236694279}
   m_Layer: 0
   m_Name: book (11)
   m_TagString: Untagged
@@ -1855,6 +2062,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &236694279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236694273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &262582554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,6 +2088,7 @@ GameObject:
   - component: {fileID: 262582557}
   - component: {fileID: 262582556}
   - component: {fileID: 262582555}
+  - component: {fileID: 262582560}
   m_Layer: 0
   m_Name: potion (2)
   m_TagString: Untagged
@@ -1991,6 +2212,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &262582560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262582554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &312581192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2238,7 @@ GameObject:
   - component: {fileID: 312581195}
   - component: {fileID: 312581194}
   - component: {fileID: 312581193}
+  - component: {fileID: 312581198}
   m_Layer: 0
   m_Name: book (18)
   m_TagString: Untagged
@@ -2127,6 +2362,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &312581198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312581192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &325883680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,6 +2617,7 @@ GameObject:
   - component: {fileID: 337332154}
   - component: {fileID: 337332153}
   - component: {fileID: 337332152}
+  - component: {fileID: 337332157}
   m_Layer: 0
   m_Name: potion (32)
   m_TagString: Untagged
@@ -2492,6 +2741,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &337332157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337332151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &415152658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,6 +2767,7 @@ GameObject:
   - component: {fileID: 415152661}
   - component: {fileID: 415152660}
   - component: {fileID: 415152659}
+  - component: {fileID: 415152664}
   m_Layer: 0
   m_Name: potion (7)
   m_TagString: Untagged
@@ -2628,6 +2891,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &415152664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415152658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &426779165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2641,6 +2917,7 @@ GameObject:
   - component: {fileID: 426779168}
   - component: {fileID: 426779167}
   - component: {fileID: 426779166}
+  - component: {fileID: 426779171}
   m_Layer: 0
   m_Name: book (32)
   m_TagString: Untagged
@@ -2764,6 +3041,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &426779171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426779165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &447902332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,6 +3067,7 @@ GameObject:
   - component: {fileID: 447902335}
   - component: {fileID: 447902334}
   - component: {fileID: 447902333}
+  - component: {fileID: 447902338}
   m_Layer: 0
   m_Name: skull
   m_TagString: Untagged
@@ -2900,6 +3191,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &447902338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447902332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &460817470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,7 +3267,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3021,6 +3325,7 @@ GameObject:
   - component: {fileID: 478485168}
   - component: {fileID: 478485167}
   - component: {fileID: 478485166}
+  - component: {fileID: 478485171}
   m_Layer: 0
   m_Name: book (9)
   m_TagString: Untagged
@@ -3144,6 +3449,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &478485171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478485165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &482705764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +3475,7 @@ GameObject:
   - component: {fileID: 482705767}
   - component: {fileID: 482705766}
   - component: {fileID: 482705765}
+  - component: {fileID: 482705770}
   m_Layer: 0
   m_Name: potion (10)
   m_TagString: Untagged
@@ -3280,6 +3599,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &482705770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482705764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &533025013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3293,6 +3625,7 @@ GameObject:
   - component: {fileID: 533025016}
   - component: {fileID: 533025015}
   - component: {fileID: 533025014}
+  - component: {fileID: 533025019}
   m_Layer: 0
   m_Name: book (25)
   m_TagString: Untagged
@@ -3416,6 +3749,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &533025019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533025013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &561911091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,6 +3775,7 @@ GameObject:
   - component: {fileID: 561911094}
   - component: {fileID: 561911093}
   - component: {fileID: 561911092}
+  - component: {fileID: 561911097}
   m_Layer: 0
   m_Name: potion (3)
   m_TagString: Untagged
@@ -3552,6 +3899,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &561911097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561911091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &580502530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3615,7 +3975,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3710,6 +4070,7 @@ GameObject:
   - component: {fileID: 588904492}
   - component: {fileID: 588904491}
   - component: {fileID: 588904490}
+  - component: {fileID: 588904495}
   m_Layer: 0
   m_Name: potion (9)
   m_TagString: Untagged
@@ -3833,6 +4194,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &588904495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588904489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &593788488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,6 +4220,7 @@ GameObject:
   - component: {fileID: 593788491}
   - component: {fileID: 593788490}
   - component: {fileID: 593788489}
+  - component: {fileID: 593788494}
   m_Layer: 0
   m_Name: book (31)
   m_TagString: Untagged
@@ -3969,6 +4344,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &593788494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593788488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &626018891
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,6 +4370,7 @@ GameObject:
   - component: {fileID: 626018894}
   - component: {fileID: 626018893}
   - component: {fileID: 626018892}
+  - component: {fileID: 626018897}
   m_Layer: 0
   m_Name: book (3)
   m_TagString: Untagged
@@ -4105,6 +4494,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &626018897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626018891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &640604781
 GameObject:
   m_ObjectHideFlags: 0
@@ -4118,6 +4520,7 @@ GameObject:
   - component: {fileID: 640604784}
   - component: {fileID: 640604783}
   - component: {fileID: 640604782}
+  - component: {fileID: 640604787}
   m_Layer: 0
   m_Name: skull
   m_TagString: Untagged
@@ -4241,6 +4644,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &640604787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640604781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &653528583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4254,6 +4670,7 @@ GameObject:
   - component: {fileID: 653528586}
   - component: {fileID: 653528585}
   - component: {fileID: 653528584}
+  - component: {fileID: 653528589}
   m_Layer: 0
   m_Name: potion (26)
   m_TagString: Untagged
@@ -4377,6 +4794,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &653528589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653528583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &675333824
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,6 +4820,7 @@ GameObject:
   - component: {fileID: 675333827}
   - component: {fileID: 675333826}
   - component: {fileID: 675333825}
+  - component: {fileID: 675333830}
   m_Layer: 0
   m_Name: potion (6)
   m_TagString: Untagged
@@ -4513,6 +4944,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &675333830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675333824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &676831622
 GameObject:
   m_ObjectHideFlags: 0
@@ -4526,6 +4970,7 @@ GameObject:
   - component: {fileID: 676831625}
   - component: {fileID: 676831624}
   - component: {fileID: 676831623}
+  - component: {fileID: 676831628}
   m_Layer: 0
   m_Name: potion (20)
   m_TagString: Untagged
@@ -4649,6 +5094,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &676831628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676831622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &715534556
 GameObject:
   m_ObjectHideFlags: 0
@@ -4712,7 +5170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 8ddbc8f7c72e744139cb80e99d440245, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4770,6 +5228,7 @@ GameObject:
   - component: {fileID: 717413451}
   - component: {fileID: 717413450}
   - component: {fileID: 717413449}
+  - component: {fileID: 717413454}
   m_Layer: 0
   m_Name: book (22)
   m_TagString: Untagged
@@ -4893,6 +5352,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &717413454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717413448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &750252031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4906,6 +5378,7 @@ GameObject:
   - component: {fileID: 750252034}
   - component: {fileID: 750252033}
   - component: {fileID: 750252032}
+  - component: {fileID: 750252037}
   m_Layer: 0
   m_Name: potion (27)
   m_TagString: Untagged
@@ -5029,6 +5502,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &750252037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750252031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &764239233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,6 +5528,8 @@ GameObject:
   - component: {fileID: 764239236}
   - component: {fileID: 764239235}
   - component: {fileID: 764239234}
+  - component: {fileID: 764239239}
+  - component: {fileID: 764239240}
   m_Layer: 0
   m_Name: potion (17)
   m_TagString: Untagged
@@ -5165,6 +5653,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &764239239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764239233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
+--- !u!114 &764239240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764239233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &774422960
 GameObject:
   m_ObjectHideFlags: 0
@@ -5178,6 +5692,7 @@ GameObject:
   - component: {fileID: 774422963}
   - component: {fileID: 774422962}
   - component: {fileID: 774422961}
+  - component: {fileID: 774422966}
   m_Layer: 0
   m_Name: potion (24)
   m_TagString: Untagged
@@ -5301,6 +5816,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &774422966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774422960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &812778931
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,6 +5842,7 @@ GameObject:
   - component: {fileID: 812778934}
   - component: {fileID: 812778933}
   - component: {fileID: 812778932}
+  - component: {fileID: 812778937}
   m_Layer: 0
   m_Name: book (1)
   m_TagString: Untagged
@@ -5437,6 +5966,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &812778937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812778931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &840235555
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,6 +5992,7 @@ GameObject:
   - component: {fileID: 840235558}
   - component: {fileID: 840235557}
   - component: {fileID: 840235556}
+  - component: {fileID: 840235561}
   m_Layer: 0
   m_Name: book (2)
   m_TagString: Untagged
@@ -5573,6 +6116,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &840235561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840235555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &846666833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5636,7 +6192,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5694,6 +6250,7 @@ GameObject:
   - component: {fileID: 862397910}
   - component: {fileID: 862397909}
   - component: {fileID: 862397908}
+  - component: {fileID: 862397913}
   m_Layer: 0
   m_Name: potion (30)
   m_TagString: Untagged
@@ -5817,6 +6374,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &862397913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862397907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
+--- !u!1 &866118276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1964928818892683004, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+  m_PrefabInstance: {fileID: 948074993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &866118285 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+  m_PrefabInstance: {fileID: 948074993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &866118286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866118276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f317fe4a9ab4279b732609b5ee9cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayOrigin: {fileID: 1408074878}
+  maxDistance: 3
+  interactionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  canInteract: 1
+--- !u!114 &866118287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866118276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0decdf0272f448818706918beb19261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 2
 --- !u!1 &920547265
 GameObject:
   m_ObjectHideFlags: 0
@@ -5830,6 +6441,7 @@ GameObject:
   - component: {fileID: 920547268}
   - component: {fileID: 920547267}
   - component: {fileID: 920547266}
+  - component: {fileID: 920547271}
   m_Layer: 0
   m_Name: potion (33)
   m_TagString: Untagged
@@ -5953,6 +6565,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &920547271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920547265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &923782009
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,6 +6591,7 @@ GameObject:
   - component: {fileID: 923782012}
   - component: {fileID: 923782011}
   - component: {fileID: 923782010}
+  - component: {fileID: 923782015}
   m_Layer: 0
   m_Name: potion (14)
   m_TagString: Untagged
@@ -6089,6 +6715,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &923782015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923782009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &943952423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,6 +6741,7 @@ GameObject:
   - component: {fileID: 943952426}
   - component: {fileID: 943952425}
   - component: {fileID: 943952424}
+  - component: {fileID: 943952429}
   m_Layer: 0
   m_Name: potion (16)
   m_TagString: Untagged
@@ -6225,6 +6865,125 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &943952429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943952423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
+--- !u!1001 &948074993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.63577497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964928818892683004, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_Name
+      value: FPSPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: jumpHeight
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: groundMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150482481047930158, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150482481047930158, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396944440811187664, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 866118276}
+    - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146222803}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1964928818892683004, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 866118286}
+    - targetCorrespondingSourceObject: {fileID: 1964928818892683004, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 866118287}
+  m_SourcePrefab: {fileID: 100100000, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
 --- !u!1 &954872705
 GameObject:
   m_ObjectHideFlags: 0
@@ -6238,6 +6997,7 @@ GameObject:
   - component: {fileID: 954872708}
   - component: {fileID: 954872707}
   - component: {fileID: 954872706}
+  - component: {fileID: 954872711}
   m_Layer: 0
   m_Name: potion (28)
   m_TagString: Untagged
@@ -6361,6 +7121,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &954872711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954872705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &997305874
 GameObject:
   m_ObjectHideFlags: 0
@@ -6374,6 +7147,7 @@ GameObject:
   - component: {fileID: 997305877}
   - component: {fileID: 997305876}
   - component: {fileID: 997305875}
+  - component: {fileID: 997305880}
   m_Layer: 0
   m_Name: potion (22)
   m_TagString: Untagged
@@ -6497,6 +7271,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &997305880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997305874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1003989286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6618,6 +7405,7 @@ GameObject:
   - component: {fileID: 1005246056}
   - component: {fileID: 1005246055}
   - component: {fileID: 1005246054}
+  - component: {fileID: 1005246059}
   m_Layer: 0
   m_Name: potion (18)
   m_TagString: Untagged
@@ -6741,6 +7529,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1005246059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005246053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1006906368
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +7590,7 @@ GameObject:
   - component: {fileID: 1009765382}
   - component: {fileID: 1009765381}
   - component: {fileID: 1009765380}
+  - component: {fileID: 1009765385}
   m_Layer: 0
   m_Name: book (21)
   m_TagString: Untagged
@@ -6912,6 +7714,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1009765385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009765379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1039338397
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,6 +7740,7 @@ GameObject:
   - component: {fileID: 1039338400}
   - component: {fileID: 1039338399}
   - component: {fileID: 1039338398}
+  - component: {fileID: 1039338403}
   m_Layer: 0
   m_Name: potion (23)
   m_TagString: Untagged
@@ -7048,6 +7864,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1039338403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039338397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1041213830
 GameObject:
   m_ObjectHideFlags: 0
@@ -7061,6 +7890,7 @@ GameObject:
   - component: {fileID: 1041213833}
   - component: {fileID: 1041213832}
   - component: {fileID: 1041213831}
+  - component: {fileID: 1041213836}
   m_Layer: 0
   m_Name: book (12)
   m_TagString: Untagged
@@ -7184,6 +8014,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1041213836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041213830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1060191460
 GameObject:
   m_ObjectHideFlags: 0
@@ -7196,7 +8039,7 @@ GameObject:
   - component: {fileID: 1060191463}
   - component: {fileID: 1060191462}
   - component: {fileID: 1060191461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7247,7 +8090,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 470abf45c08284310a146361a1d5c198, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7305,6 +8148,7 @@ GameObject:
   - component: {fileID: 1075485300}
   - component: {fileID: 1075485299}
   - component: {fileID: 1075485298}
+  - component: {fileID: 1075485303}
   m_Layer: 0
   m_Name: potion (31)
   m_TagString: Untagged
@@ -7428,6 +8272,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1075485303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075485297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1083542383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7491,7 +8348,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7549,6 +8406,7 @@ GameObject:
   - component: {fileID: 1083891047}
   - component: {fileID: 1083891046}
   - component: {fileID: 1083891045}
+  - component: {fileID: 1083891050}
   m_Layer: 0
   m_Name: potion (21)
   m_TagString: Untagged
@@ -7672,6 +8530,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1083891050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083891044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1086748952
 GameObject:
   m_ObjectHideFlags: 0
@@ -7685,6 +8556,7 @@ GameObject:
   - component: {fileID: 1086748955}
   - component: {fileID: 1086748954}
   - component: {fileID: 1086748953}
+  - component: {fileID: 1086748958}
   m_Layer: 0
   m_Name: book (33)
   m_TagString: Untagged
@@ -7808,6 +8680,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1086748958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086748952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1093433716
 GameObject:
   m_ObjectHideFlags: 0
@@ -7821,6 +8706,7 @@ GameObject:
   - component: {fileID: 1093433719}
   - component: {fileID: 1093433718}
   - component: {fileID: 1093433717}
+  - component: {fileID: 1093433722}
   m_Layer: 0
   m_Name: book (23)
   m_TagString: Untagged
@@ -7944,6 +8830,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1093433722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093433716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1116524995
 GameObject:
   m_ObjectHideFlags: 0
@@ -7957,6 +8856,7 @@ GameObject:
   - component: {fileID: 1116524998}
   - component: {fileID: 1116524997}
   - component: {fileID: 1116524996}
+  - component: {fileID: 1116525001}
   m_Layer: 0
   m_Name: book (17)
   m_TagString: Untagged
@@ -8080,6 +8980,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1116525001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116524995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1148500817
 GameObject:
   m_ObjectHideFlags: 0
@@ -8093,6 +9006,7 @@ GameObject:
   - component: {fileID: 1148500820}
   - component: {fileID: 1148500819}
   - component: {fileID: 1148500818}
+  - component: {fileID: 1148500823}
   m_Layer: 0
   m_Name: potion (5)
   m_TagString: Untagged
@@ -8216,6 +9130,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1148500823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148500817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1168793397
 GameObject:
   m_ObjectHideFlags: 0
@@ -8229,6 +9156,7 @@ GameObject:
   - component: {fileID: 1168793400}
   - component: {fileID: 1168793399}
   - component: {fileID: 1168793398}
+  - component: {fileID: 1168793403}
   m_Layer: 0
   m_Name: book (6)
   m_TagString: Untagged
@@ -8352,6 +9280,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1168793403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168793397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1194824940
 GameObject:
   m_ObjectHideFlags: 0
@@ -8365,6 +9306,7 @@ GameObject:
   - component: {fileID: 1194824943}
   - component: {fileID: 1194824942}
   - component: {fileID: 1194824941}
+  - component: {fileID: 1194824946}
   m_Layer: 0
   m_Name: potion (25)
   m_TagString: Untagged
@@ -8488,6 +9430,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1194824946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194824940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1224106429
 GameObject:
   m_ObjectHideFlags: 0
@@ -8501,6 +9456,7 @@ GameObject:
   - component: {fileID: 1224106432}
   - component: {fileID: 1224106431}
   - component: {fileID: 1224106430}
+  - component: {fileID: 1224106435}
   m_Layer: 0
   m_Name: potion
   m_TagString: Untagged
@@ -8624,6 +9580,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1224106435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224106429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1227354262
 GameObject:
   m_ObjectHideFlags: 0
@@ -8633,6 +9602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227354263}
+  - component: {fileID: 1227354264}
   m_Layer: 0
   m_Name: potions
   m_TagString: Untagged
@@ -8689,6 +9659,19 @@ Transform:
   - {fileID: 1224106434}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227354264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227354262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1233567984
 GameObject:
   m_ObjectHideFlags: 0
@@ -8960,6 +9943,7 @@ GameObject:
   - component: {fileID: 1260681855}
   - component: {fileID: 1260681854}
   - component: {fileID: 1260681853}
+  - component: {fileID: 1260681858}
   m_Layer: 0
   m_Name: book (16)
   m_TagString: Untagged
@@ -9083,6 +10067,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1260681858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260681852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1283278980
 GameObject:
   m_ObjectHideFlags: 0
@@ -9096,6 +10093,7 @@ GameObject:
   - component: {fileID: 1283278983}
   - component: {fileID: 1283278982}
   - component: {fileID: 1283278981}
+  - component: {fileID: 1283278986}
   m_Layer: 0
   m_Name: potion (4)
   m_TagString: Untagged
@@ -9219,6 +10217,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1283278986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283278980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1286650071
 GameObject:
   m_ObjectHideFlags: 0
@@ -9232,6 +10243,7 @@ GameObject:
   - component: {fileID: 1286650074}
   - component: {fileID: 1286650073}
   - component: {fileID: 1286650072}
+  - component: {fileID: 1286650077}
   m_Layer: 0
   m_Name: book (10)
   m_TagString: Untagged
@@ -9355,6 +10367,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1286650077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286650071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1295842371
 GameObject:
   m_ObjectHideFlags: 0
@@ -9418,7 +10443,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9526,7 +10551,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9571,6 +10596,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1255261837}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!4 &1408074878 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2753977492857004358, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+  m_PrefabInstance: {fileID: 948074993}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1415548868
 GameObject:
   m_ObjectHideFlags: 0
@@ -9584,6 +10614,7 @@ GameObject:
   - component: {fileID: 1415548871}
   - component: {fileID: 1415548870}
   - component: {fileID: 1415548869}
+  - component: {fileID: 1415548874}
   m_Layer: 0
   m_Name: potion (12)
   m_TagString: Untagged
@@ -9707,6 +10738,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1415548874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415548868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1440275621
 GameObject:
   m_ObjectHideFlags: 0
@@ -9720,6 +10764,7 @@ GameObject:
   - component: {fileID: 1440275624}
   - component: {fileID: 1440275623}
   - component: {fileID: 1440275622}
+  - component: {fileID: 1440275627}
   m_Layer: 0
   m_Name: potion (11)
   m_TagString: Untagged
@@ -9843,6 +10888,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1440275627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440275621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1452330674
 GameObject:
   m_ObjectHideFlags: 0
@@ -9856,6 +10914,7 @@ GameObject:
   - component: {fileID: 1452330677}
   - component: {fileID: 1452330676}
   - component: {fileID: 1452330675}
+  - component: {fileID: 1452330680}
   m_Layer: 0
   m_Name: book (13)
   m_TagString: Untagged
@@ -9979,6 +11038,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1452330680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452330674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1455953517
 GameObject:
   m_ObjectHideFlags: 0
@@ -9992,6 +11064,7 @@ GameObject:
   - component: {fileID: 1455953520}
   - component: {fileID: 1455953519}
   - component: {fileID: 1455953518}
+  - component: {fileID: 1455953523}
   m_Layer: 0
   m_Name: book (26)
   m_TagString: Untagged
@@ -10115,6 +11188,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1455953523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455953517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1487660611
 GameObject:
   m_ObjectHideFlags: 0
@@ -10217,8 +11303,8 @@ Transform:
   m_GameObject: {fileID: 1487660611}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.938, y: 1.481, z: -2.56}
-  m_LocalScale: {x: 0.98103523, y: 2.4416175, z: 4.5012393}
+  m_LocalPosition: {x: 3.938, y: 1.24, z: -2.56}
+  m_LocalScale: {x: 0.98103523, y: 2.924109, z: 4.5012393}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -10236,6 +11322,7 @@ GameObject:
   - component: {fileID: 1488972544}
   - component: {fileID: 1488972543}
   - component: {fileID: 1488972542}
+  - component: {fileID: 1488972547}
   m_Layer: 0
   m_Name: book (19)
   m_TagString: Untagged
@@ -10359,6 +11446,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1488972547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488972541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1513842597
 GameObject:
   m_ObjectHideFlags: 0
@@ -10372,6 +11472,7 @@ GameObject:
   - component: {fileID: 1513842600}
   - component: {fileID: 1513842599}
   - component: {fileID: 1513842598}
+  - component: {fileID: 1513842603}
   m_Layer: 0
   m_Name: potion (15)
   m_TagString: Untagged
@@ -10495,6 +11596,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1513842603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513842597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1532799017
 GameObject:
   m_ObjectHideFlags: 0
@@ -10508,6 +11622,7 @@ GameObject:
   - component: {fileID: 1532799020}
   - component: {fileID: 1532799019}
   - component: {fileID: 1532799018}
+  - component: {fileID: 1532799023}
   m_Layer: 0
   m_Name: book
   m_TagString: Untagged
@@ -10631,6 +11746,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1532799023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532799017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1602601762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10644,6 +11772,7 @@ GameObject:
   - component: {fileID: 1602601765}
   - component: {fileID: 1602601764}
   - component: {fileID: 1602601763}
+  - component: {fileID: 1602601768}
   m_Layer: 0
   m_Name: book (8)
   m_TagString: Untagged
@@ -10767,6 +11896,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1602601768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602601762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1642570605
 GameObject:
   m_ObjectHideFlags: 0
@@ -10830,7 +11972,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10938,7 +12080,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11104,6 +12246,7 @@ GameObject:
   - component: {fileID: 1739117050}
   - component: {fileID: 1739117049}
   - component: {fileID: 1739117048}
+  - component: {fileID: 1739117053}
   m_Layer: 0
   m_Name: book (27)
   m_TagString: Untagged
@@ -11227,6 +12370,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1739117053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739117047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1740535158
 GameObject:
   m_ObjectHideFlags: 0
@@ -11240,6 +12396,7 @@ GameObject:
   - component: {fileID: 1740535161}
   - component: {fileID: 1740535160}
   - component: {fileID: 1740535159}
+  - component: {fileID: 1740535164}
   m_Layer: 0
   m_Name: book (28)
   m_TagString: Untagged
@@ -11363,6 +12520,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1740535164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740535158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1808261727
 GameObject:
   m_ObjectHideFlags: 0
@@ -11376,6 +12546,7 @@ GameObject:
   - component: {fileID: 1808261730}
   - component: {fileID: 1808261729}
   - component: {fileID: 1808261728}
+  - component: {fileID: 1808261733}
   m_Layer: 0
   m_Name: book (34)
   m_TagString: Untagged
@@ -11499,6 +12670,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1808261733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808261727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1816110464
 GameObject:
   m_ObjectHideFlags: 0
@@ -11562,7 +12746,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11620,6 +12804,7 @@ GameObject:
   - component: {fileID: 1818991082}
   - component: {fileID: 1818991081}
   - component: {fileID: 1818991080}
+  - component: {fileID: 1818991085}
   m_Layer: 0
   m_Name: book (15)
   m_TagString: Untagged
@@ -11743,6 +12928,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1818991085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818991079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1826836432
 GameObject:
   m_ObjectHideFlags: 0
@@ -11851,6 +13049,115 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -5.914, y: 11.123, z: -11.75}
+--- !u!1 &1835856954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835856958}
+  - component: {fileID: 1835856957}
+  - component: {fileID: 1835856956}
+  - component: {fileID: 1835856955}
+  m_Layer: 6
+  m_Name: floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1835856955
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835856954}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1835856956
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835856954}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 71de21829fcca48f4807c79a011e6c07, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1835856957
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835856954}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1835856958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835856954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.234848, y: -0.06, z: 1.5162282}
+  m_LocalScale: {x: 4.3514, y: 1, z: 3.6403}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850044436
 GameObject:
   m_ObjectHideFlags: 0
@@ -11914,7 +13221,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 8ddbc8f7c72e744139cb80e99d440245, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11972,6 +13279,7 @@ GameObject:
   - component: {fileID: 1860775311}
   - component: {fileID: 1860775310}
   - component: {fileID: 1860775309}
+  - component: {fileID: 1860775314}
   m_Layer: 0
   m_Name: potion (1)
   m_TagString: Untagged
@@ -12095,6 +13403,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1860775314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860775308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1881798988
 GameObject:
   m_ObjectHideFlags: 0
@@ -12108,6 +13429,7 @@ GameObject:
   - component: {fileID: 1881798991}
   - component: {fileID: 1881798990}
   - component: {fileID: 1881798989}
+  - component: {fileID: 1881798994}
   m_Layer: 0
   m_Name: potion (13)
   m_TagString: Untagged
@@ -12231,6 +13553,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1881798994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881798988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1909355871
 GameObject:
   m_ObjectHideFlags: 0
@@ -12244,6 +13579,7 @@ GameObject:
   - component: {fileID: 1909355874}
   - component: {fileID: 1909355873}
   - component: {fileID: 1909355872}
+  - component: {fileID: 1909355877}
   m_Layer: 0
   m_Name: book (5)
   m_TagString: Untagged
@@ -12367,6 +13703,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1909355877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909355871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1910623344
 GameObject:
   m_ObjectHideFlags: 0
@@ -12379,7 +13728,7 @@ GameObject:
   - component: {fileID: 1910623347}
   - component: {fileID: 1910623346}
   - component: {fileID: 1910623345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12488,6 +13837,7 @@ GameObject:
   - component: {fileID: 1916148737}
   - component: {fileID: 1916148736}
   - component: {fileID: 1916148735}
+  - component: {fileID: 1916148740}
   m_Layer: 0
   m_Name: book (14)
   m_TagString: Untagged
@@ -12611,6 +13961,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: -0.002, y: 89.001, z: -0.04}
+--- !u!114 &1916148740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916148734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1983410427
 GameObject:
   m_ObjectHideFlags: 0
@@ -12674,7 +14037,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 8ddbc8f7c72e744139cb80e99d440245, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12732,6 +14095,7 @@ GameObject:
   - component: {fileID: 1988289564}
   - component: {fileID: 1988289563}
   - component: {fileID: 1988289562}
+  - component: {fileID: 1988289567}
   m_Layer: 0
   m_Name: potion (29)
   m_TagString: Untagged
@@ -12855,6 +14219,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227354263}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &1988289567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988289561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &1993783099
 GameObject:
   m_ObjectHideFlags: 0
@@ -12918,7 +14295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13026,7 +14403,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eacc64636c5de417dbb74697be0ddfca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13080,6 +14457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2103799946}
+  - component: {fileID: 2103799947}
   m_Layer: 0
   m_Name: books
   m_TagString: Untagged
@@ -13137,6 +14515,19 @@ Transform:
   - {fileID: 1532799022}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103799947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103799945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &2114630675
 GameObject:
   m_ObjectHideFlags: 0
@@ -13258,6 +14649,7 @@ GameObject:
   - component: {fileID: 2143735900}
   - component: {fileID: 2143735899}
   - component: {fileID: 2143735898}
+  - component: {fileID: 2143735903}
   m_Layer: 0
   m_Name: book (29)
   m_TagString: Untagged
@@ -13381,6 +14773,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2103799946}
   m_LocalEulerAnglesHint: {x: 0.04, y: 179.455, z: -0.002}
+--- !u!114 &2143735903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143735897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c209c8365515b434482f5973f3efe160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: A mysterious book
 --- !u!1 &2146222800
 GameObject:
   m_ObjectHideFlags: 0
@@ -13393,9 +14798,10 @@ GameObject:
   - component: {fileID: 2146222802}
   - component: {fileID: 2146222801}
   - component: {fileID: 2146222804}
+  - component: {fileID: 2146222805}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13441,7 +14847,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -13467,12 +14873,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146222800}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.61999995, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 1.5728835, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 866118285}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2146222804
 MonoBehaviour:
@@ -13518,12 +14924,44 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &2146222805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146222800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowDebugText: 0
+  ShowCameraFrustum: 1
+  IgnoreTimeScale: 0
+  WorldUpOverride: {fileID: 0}
+  ChannelMask: -1
+  UpdateMethod: 2
+  BlendUpdateMethod: 1
+  LensModeOverride:
+    Enabled: 0
+    DefaultMode: 2
+  DefaultBlend:
+    Style: 1
+    Time: 2
+    CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  CustomBlends: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 2146222803}
   - {fileID: 325883683}
+  - {fileID: 948074993}
   - {fileID: 1006906369}
   - {fileID: 1255261837}
   - {fileID: 583304693}
@@ -13540,3 +14978,5 @@ SceneRoots:
   - {fileID: 156436221}
   - {fileID: 1910623348}
   - {fileID: 1826836436}
+  - {fileID: 1835856958}
+  - {fileID: 193709259}
