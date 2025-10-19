@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/title.unity
+    guid: 39b49f8a0725d6d47a01f7249ae143ae
+  - enabled: 1
+    path: Assets/Scenes/TCWTR.unity
+    guid: e26ca403dea72524fb4bbdb7780fc164
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

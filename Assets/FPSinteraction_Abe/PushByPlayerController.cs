@@ -1,10 +1,30 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))] //Ensures player controller component is there
+[RequireComponent(typeof(AudioSource))]
 public class PushByPlayerController : MonoBehaviour
 {
     public float pushForce = 2f; //How hard are we pushing other objects?
 
+    [SerializeField] private AudioClip BumpBook;
+
+    private AudioSource audioSource;
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.spatialBlend = 1f;
+        audioSource.playOnAwake = false;
+    }
+    private void PlaySound(AudioClip clip)
+    {
+        if (!clip || !audioSource) return;
+
+        audioSource.Stop();
+        audioSource.clip = clip;
+  
+        audioSource.Play(); 
+    }
     //Function that detects collision. Put whatever logic you want in it.
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
@@ -27,6 +47,7 @@ public class PushByPlayerController : MonoBehaviour
         pushDir.y = 0f; // keep push horizontal
         rb.AddForce(pushDir * pushForce, ForceMode.Impulse);
 
+        PlaySound(BumpBook);
         //}
     }
 }
